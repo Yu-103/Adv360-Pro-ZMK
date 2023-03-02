@@ -50,7 +50,7 @@
     compatible = "zmk,behavior-macro";
     label = "macro_y";
     #binding-cells = <0>;
-    bindings = <&macro_press &kp LCTRL &kp LSHFT,&kp Y,&macro_release &kp LCTRL &kp LSHFT>;
+    bindings = <&macro_press &kp LCTRL>, <&kp Y>, <&macro_release &kp LCTRL>;
   };
     macro_ctrlshft: macro_ctrlshft{
     compatible = "zmk,behavior-macro";
