@@ -56,5 +56,5 @@ macro_ctrlshft: macro_ctrlshft{
 compatible = "zmk,behavior-macro";
 label = "macro_ctrlshft";
 #binding-cells = <0>;
-bindings = <&macro_tap &kp LCTRL &kp LSHFT>;
+bindings = <&kp LCTRL &kp LSHFT>;
 };
