@@ -14,7 +14,6 @@
 
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/rgb.h>
 #include <dt-bindings/zmk/backlight.h>
@@ -44,7 +43,7 @@
    &kp ESC      &kp Q      &kp W   &kp E     &kp R   &kp T                      &none                                                                  &macro_y   &kp Y     &kp U      &kp I     &kp O     &kp P          &kp MINUS
    &kp TAB      &kp A      &kp S   &kp D     &kp F   &kp G            &macro_ctrlshft  &kp LCTRL   &kp LGUI                  &kp RALT  &kp RCTRL  &macro_alttab   &kp H     &kp J      &kp K     &kp L  &kp SEMI  &macro_shiftspace
  &kp LSHFT      &kp Z      &kp X   &kp C     &kp V   &kp B                      &none      &none  &kp PG_UP   &none   &none  &kp HOME      &none          &none   &kp N     &kp M  &kp COMMA   &kp DOT  &kp FSLH          &kp RSHFT
-  &kt BSLH  &kp GRAVE  &kp K_APP  &kp UP  &kp DOWN                           &kp BSPC    &kp DEL  &kp PG_DN                   &kp END  &kp ENTER      &kp SPACE          &kp LEFT  &kp RIGHT  &kp LBKT  &kp RBKT            &kp SQT
+  &kp BSLH  &kp GRAVE  &kp K_APP  &kp UP  &kp DOWN                           &kp BSPC    &kp DEL  &kp PG_DN                   &kp END  &kp ENTER      &kp SPACE          &kp LEFT  &kp RIGHT  &kp LBKT  &kp RBKT            &kp SQT
             >;
         };
 
@@ -61,10 +60,10 @@
         layer_fn {
             bindings = <
      &to 0     &kp F1     &kp F2  &kp F3    &kp F5  &kp F6                      &to 3                                                                     &to 1  &kp F6    &kp F7     &kp F8    &kp F9   &kp F10          &kp EQUAL
-   &kp ESC      &kp Q      &kp W   &kp E     &kp R   &kp T                    &kp F11                                                                   &kp F12   &kp Y     &kp U      &kt I     &kp O     &kt P          &kt MINUS
-   &kp TAB      &kp A      &kp S   &kp D     &kp F   &kp G            &macro_ctrlshft  &kt LCTRL   &kt LGUI                  &kt RALT  &kt RCTRL  &macro_alttab   &kt H     &kt J      &kt K     &kt L  &kt SEMI  &macro_shiftspace
- &kt LSHFT      &kp Z      &kp X   &kp C     &kp V   &kp B                      &none      &none  &kt PG_UP   &none   &none  &kt HOME      &none          &none   &kt N     &kt M  &kt COMMA   &kt DOT  &kt FSLH          &kp RSHFT
-  &kp BSLH  &kp GRAVE  &kp K_APP  &kp UP  &kp DOWN                           &kt BSPC    &kp DEL  &kt PG_DN                   &kt END  &kt ENTER      &kt SPACE          &kp LEFT  &kp RIGHT  &kt LBKT  &kp RBKT            &kp SQT
+   &kp ESC      &kp Q      &kp W   &kp E     &kp R   &kp T                    &kp F11                                                                   &kp F12   &kp Y     &kp U      &kp I     &kp O     &kp P          &kp MINUS
+   &kp TAB      &kp A      &kp S   &kp D     &kp F   &kp G            &macro_ctrlshft  &kp LCTRL   &kp LGUI                  &kp RALT  &kp RCTRL  &macro_alttab   &kp H     &kp J      &kp K     &kp L  &kp SEMI  &macro_shiftspace
+ &kp LSHFT      &kp Z      &kp X   &kp C     &kp V   &kp B                      &none      &none  &kp PG_UP   &none   &none  &kp HOME      &none          &none   &kp N     &kp M  &kp COMMA   &kp DOT  &kp FSLH          &kp RSHFT
+  &kp BSLH  &kp GRAVE  &kp K_APP  &kp UP  &kp DOWN                           &kp BSPC    &kp DEL  &kp PG_DN                   &kp END  &kp ENTER      &kp SPACE          &kp LEFT  &kp RIGHT  &kp LBKT  &kp RBKT            &kp SQT
             >;
         };
 
