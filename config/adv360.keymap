@@ -60,11 +60,11 @@
 
         layer_fn {
             bindings = <
-     &to 0  &kp F1     &kp F2  &kp F3    &kp F5  &kp F6              &to 3                                                          &to 1  &kp F6    &kp F7     &kp F8   &kp F9   &kp F10              &none
-   &kp ESC   &kp Q      &kp W   &kp E     &kp R   &kp T            &kp F11                                                          &none   &kp Y     &kp U      &kt I    &kp O     &kt P              &none
-   &kp TAB   &kp A      &kp S   &kp D     &kp F   &kp G            &kp F12  &trans  &trans                  &trans  &trans  &macro_alttab   &kt H     &kt J      &kt K    &kt L  &kt SEMI  &macro_shiftspace
- &kt LSHFT   &kp Z      &kp X   &kp C     &kp V   &kp B              &none   &none  &trans   &none   &none  &trans   &none          &none   &kt N     &kt M  &kt COMMA  &kt DOT  &kt FSLH          &kp RSHFT
-     &none   &none  &kp K_APP  &kp UP  &kp DOWN                     &trans  &trans  &trans                  &trans  &trans         &trans          &kp LEFT  &kp RIGHT    &none     &none              &none
+     &to 0     &kp F1     &kp F2  &kp F3    &kp F5  &kp F6               &to 3                                                                     &to 1  &kp F6    &kp F7     &kp F8    &kp F9   &kp F10          &kp EQUAL
+   &kp ESC      &kp Q      &kp W   &kp E     &kp R   &kp T             &kp F11                                                                     &none   &kp Y     &kp U      &kt I     &kp O     &kt P          &kt MINUS
+   &kp TAB      &kp A      &kp S   &kp D     &kp F   &kp G             &kp F12  &kt LCTRL   &kt LGUI                  &kt RALT  &kt RCTRL  &macro_alttab   &kt H     &kt J      &kt K     &kt L  &kt SEMI  &macro_shiftspace
+ &kt LSHFT      &kp Z      &kp X   &kp C     &kp V   &kp B               &none      &none  &kt PG_UP   &none   &none  &kt HOME      &none          &none   &kt N     &kt M  &kt COMMA   &kt DOT  &kt FSLH          &kp RSHFT
+  &kp BSLH  &kp GRAVE  &kp K_APP  &kp UP  &kp DOWN                    &kt BSPC    &kp DEL  &kt PG_DN                   &kt END  &kt ENTER      &kt SPACE          &kp LEFT  &kp RIGHT  &kt LBKT  &kp RBKT            &kp SQT
             >;
         };
 
