@@ -58,3 +58,15 @@ label = "macro_ctrlshft";
 #binding-cells = <0>;
 bindings = <&kp LCTRL &kp LSHFT>;
 };
+macro_pgup: macro_pgup{
+compatible = "zmk,behavior-macro";
+label = "macro_pgup";
+#binding-cells = <0>;
+bindings = <&macro_press &kp LCTRL>, <&macro_tap &kp PG_UP>, <&macro_release &kp LCTRL>;
+};
+macro_pgdn: macro_pgdn{
+compatible = "zmk,behavior-macro";
+label = "macro_pgdn";
+#binding-cells = <0>;
+bindings = <&macro_press &kp LCTRL>, <&macro_tap &kp PG_DN>, <&macro_release &kp LCTRL>;
+};
